@@ -1,0 +1,6 @@
+Build : main.c HelperFunctions.c 
+	gcc main.c HelperFunctions.c -o HelperFunctions.out
+Run : HelperFunctions.out
+	./HelperFunctions.out
+Clean :
+	rm -rf *.out *.o
